@@ -40,14 +40,13 @@
   This application is solely created by Nicholas Krilis. If you would like to make changes to this project please fork the repo and submit your changes via a pull request. I will take a look and if all looks good I will merge, Thank you!
   ## Tests
   There are no testing suites associated with this project.
-  ## Questions
-  [Here you can view my Github Account](https://github.com/nkrilis)
+ 
 
-  If you have any questions or would like to reach me you can contact me at [n.krilis@gmail.com](mailto:n.krilis@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
+
 
   ## License
 
-    Copyright 2022 Nicholas Krilis
+    
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of 
     this software and associated documentation files (the "Software"), to deal in the 
