@@ -1,0 +1,38 @@
+<div class="ui container medium">
+  <div class="ui message">
+  <div class="header m-auto">
+    <h1>{{categoryData.name}} Workout Plan!</h1>
+  </div>
+
+  <div class="header m-auto">
+    <h3> Nutrition information: </h3>
+    <h4>Your Basal Metabolic Rate: </br> 
+    {{{get_BMR userData}}} Calories</h4>
+
+    <h4>Your Caloric Deficit: </br> 
+    {{{getDeficit (get_BMR userData) userData}}} Calories</h4>
+
+    <h4>Your Caloric Surplus: </br> 
+    {{{getSurplus (get_BMR userData) userData}}} Calories</h4>
+  </div>
+</div>
+    <table class="ui large celled table">
+        <thead>
+          <tr><th>WORKOUT</th>
+          <th>SETS</th>
+          <th>REPS</th>
+          <th>RPE</th>
+        </tr></thead>
+        <tbody>
+        {{#each categoryData.workouts as |workout|}}
+          <tr>
+            <td data-label="WORKOUT">{{workout.name}}</td>
+            <td data-label="SETS">{{workout.sets}}</td>
+            <td data-label="REPS">{{workout.reps}}</td>
+            <td data-label="RPE">{{workout.rpe}}%</td>
+          </tr>
+        {{/each}}
+
+        </tbody>
+      </table>
+</div>
